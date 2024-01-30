@@ -1,0 +1,188 @@
+.body{
+    margin: 0;
+    
+}
+
+
+.menu{
+    
+    color: white;
+    justify-content: center ;  
+    position: absolute;
+  top: 0;
+  display: flex;
+  padding: 50px 50px;
+  z-index: 1;
+  width: 100%;
+
+}
+
+.menu img{
+    width: 50px;
+    
+}
+
+.menu button{
+    top: 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;    
+    justify-content: end;
+}
+
+
+  .titulodosite{
+    display: flex;
+    gap: 15px;
+  }
+
+.cabeçalho{
+    position: relative;
+}
+.cabeçalho img{
+    width: 100%;
+    object-fit: cover;
+    z-index: 0;
+
+}
+
+.cabeçalho h1{
+    justify-content: baseline;
+    margin-top: 300px;
+    margin-left: 300px;
+    color: white;
+
+}
+
+.caixa
+
+{ 
+    text-align: center;
+  padding: 20px;
+  background-color: rgba(255, 255, 255, 0.7);
+  margin-top: -500px;
+  position: relative;
+  
+
+}
+
+.caixa button{
+    background-color: #396d3a;
+    color: white;
+    width: 5VW;
+    height: 7VH;
+    border-radius: 5px;
+}
+
+.caixa h1{
+ color: white;
+ top: 30px;
+}
+
+.topicos{
+    ;
+    display: flex;
+    margin-bottom: 50px;
+}
+
+.topico1{
+    font-size: 20px;
+    color: #3A633B;
+    gap: 5%;
+    width: 500px;
+    
+}
+
+
+.topicobotao{
+    text-align: center;
+    color: red;
+    border: none;
+    background-color: white;
+}
+
+.topico1 img{
+width: 70px;
+margin-left: 23px;
+}
+
+
+
+.galeria1{
+    width: 80%;
+    display: flex;
+    margin-left: 80px;
+    margin-right: 80px;
+    position: relative;
+    margin-bottom: -20px;
+    
+    
+}    
+
+.galeria1 h2{
+  color: black;
+}
+
+.textoP {
+    width: 70%;
+    
+}
+
+.galeria1 img{
+    border-bottom: -60%;
+}
+.galeria button{
+
+}
+
+.texto1{
+    width: 50%;
+}
+
+.texto1 button{
+    background-color: red;
+    color: white;
+    width: 100px;
+    height: 30px;
+    border-radius: 15px;
+    justify-content: center;
+    border: 0;
+}
+
+.galeria2{
+    display: block;
+    display: flex;
+    background-color:#fff0ed ;
+   
+    border-right: 50px;
+    border-left: 70px;
+  
+}
+
+.galeria2 img{
+    margin-left: 100px;
+    margin-top: 50px;
+}
+
+.galeria p, h2{
+    margin-top: 60px;
+    font-weight: 50px;
+}
+
+.galeria2 button{
+    background-color: red;
+    color: white;
+    width: 135px;
+    height: 30px;
+    border-radius: 15px;
+    justify-content: center;
+    border: 0;
+}
+
+.texto2{
+  margin-left: 50px;
+}
+
+.texto2 p{
+    width: 70%;
+}
